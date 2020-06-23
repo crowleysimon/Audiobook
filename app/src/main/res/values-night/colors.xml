@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_player">@color/main_dark_color</color>
+    <color name="icon_color">@color/main_light_color</color>
+</resources>
