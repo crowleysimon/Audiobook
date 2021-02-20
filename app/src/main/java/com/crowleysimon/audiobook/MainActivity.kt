@@ -48,13 +48,13 @@ class MainActivity : AppCompatActivity() {
             imageView8.setImageDrawable(getDrawable(this, R.drawable.ic_bookmark_filled))
         }
 
-        loadImage("https://www.booktopia.com.au/http_coversbooktopiacomau/big/9780571334650/0423/xnormal-people.jpg.pagespeed.ic.5b1wK2nQhU.jpg")
+        loadImage("https://covers.booktopia.com.au/big/9781760984120/7025/air-fryer-express.webp")
 
         progressBar3.setProgress(progress)
         handler.postDelayed(runnable, 16)
 
         imageView.setOnClickListener {
-            loadImage("https://www.booktopia.com.au/http_coversbooktopiacomau/big/9781460757154/6806/xphosphorescence.jpg.pagespeed.ic.YmoeScHb96.jpg")
+            loadImage("https://covers.booktopia.com.au/big/9780733340901/3242/loud.webp")
         }
     }
 
